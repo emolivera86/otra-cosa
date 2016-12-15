@@ -5,9 +5,11 @@
 <meta charset="UTF-8">
 
 <script type="text/javascript">
-    document.getElementById('myVideo').addEventListener('ended',myHandler,false);
-    function myHandler(e) {
-        // What you want to do after the event
+  function videoEnded() {
+  //  alert('video ended');
+var myElement = document.querySelector("#demo");
+myElement.style.display = "block";
+
     }
 </script>
 <title>Untitled Document</title>
